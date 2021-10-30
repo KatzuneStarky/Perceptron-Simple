@@ -2,6 +2,7 @@
 <p align="center">
   <img height="300" src="img/uabcs.png">
 </p>
+
 # Ingenieria en Desarrollo de Software 9no Semestre
 # Perceptrón sencillo para separar dos conjuntos de puntos.
 
@@ -14,3 +15,10 @@ Instrucciones: Construir en su lenguaje de preferencia, un perceptrón que apren
     - objects/ball.js
     - objects/neuro.js
     - sketch.js
+
+
+# Gif del funcionamiento de la nurona
+
+<p align="center">
+  <img width="600" height="600" src="img/perceptron.gif">
+</p>
