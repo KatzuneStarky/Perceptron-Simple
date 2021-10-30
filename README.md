@@ -11,7 +11,7 @@ Instrucciones: Construir en su lenguaje de preferencia, un perceptrón que apren
     - Adan Enrique Ramirez Cisneros
     - 29 de Octubre del 2021
 
-## Como Funciona
+## Archivos de Funcionamiento
     - objects/ball.js
     - objects/neuro.js
     - sketch.js
@@ -25,3 +25,31 @@ Instrucciones: Construir en su lenguaje de preferencia, un perceptrón que apren
 
 ## Link del percerceptron en funcionamiento
 URL: https://katzunestarky.github.io/Perceptron-Simple/
+
+## Neuron.js (js/objects/neuron.js)
+    La neurona en cuestion recibe el parametro que se le da sobre la tasa de aprendizaje asignada manualmente, siendo esta instanciada se le asignan pesos en un array de los cuales los primeros son las posiciones del array mencionado, y por ultimo el bias
+
+```js
+    class neurona{
+        constructor(knowledgeRate){
+            this.weights = [0.5, 0.5, 0.5];
+            this.alpha = knowledgeRate;
+        }
+    }
+```
+
+Para hacer aprender a nuestro perceptron se utilizo la siguiente formula (usando la funcion classify dentro de neuron.js):
+
+```js
+    aprendiendo(x, y, isRight) {
+        let val = this.classify(x, y);
+        let error = isRight - val;
+        this.weights[0] = this.weights[0] + this.alpha * error * x;
+        this.weights[1] = this.weights[1] + this.alpha * error * y;
+        this.weights[2] = this.weights[2] + this.alpha * error;
+      }
+```
+
+## Ball.js (js/objects/ball.js)
+
+Esta clase se usa para definir los puntos que se crearan en el canvas el cual pinta los circulos. 
