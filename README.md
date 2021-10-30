@@ -1,4 +1,5 @@
 # Universidad Autonoma de Baja California Sur
+![Gif del funcionamiento](img/uabcs.png)
 # Ingenieria en Desarrollo de Software 9no Semestre
 # Perceptrón sencillo para separar dos conjuntos de puntos.
 
