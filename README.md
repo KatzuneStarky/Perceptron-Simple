@@ -20,5 +20,5 @@ Instrucciones: Construir en su lenguaje de preferencia, un perceptrón que apren
 # Gif del funcionamiento de la nurona
 
 <p align="center">
-  <img width="600" height="600" src="img/perceptron.gif">
+  <img height="600" src="img/perceptron.gif">
 </p>
