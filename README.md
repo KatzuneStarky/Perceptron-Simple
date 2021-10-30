@@ -22,3 +22,6 @@ Instrucciones: Construir en su lenguaje de preferencia, un perceptrón que apren
 <p align="center">
   <img height="600" src="img/perceptron.gif">
 </p>
+
+## Link del percerceptron en funcionamiento
+    URL: https://katzunestarky.github.io/Perceptron-Simple/
