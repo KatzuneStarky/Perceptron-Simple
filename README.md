@@ -24,4 +24,4 @@ Instrucciones: Construir en su lenguaje de preferencia, un perceptrón que apren
 </p>
 
 ## Link del percerceptron en funcionamiento
-    URL: https://katzunestarky.github.io/Perceptron-Simple/
+URL: https://katzunestarky.github.io/Perceptron-Simple/
