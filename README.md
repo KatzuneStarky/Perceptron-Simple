@@ -17,7 +17,7 @@ Instrucciones: Construir en su lenguaje de preferencia, un perceptrón que apren
     - sketch.js
 
 
-# Gif del funcionamiento de la nurona
+# Gif del funcionamiento del perceptron
 
 <p align="center">
   <img height="600" src="img/perceptron.gif">
